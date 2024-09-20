@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: border-box;
+}
+main{
+
+  background-color: #f2ebe3;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.everyPopup{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+   
+  width: 700px;
+  height: 400px;
+}
+.mugImage{
+    background-image: url(mug.jpg);
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+.mugDetails{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 20px 20px 0px;
+    padding: 20px 40px;
+}
+.productType{
+    color: rgb(100, 100, 100);
+    font-family: "Montserrat", sans-serif;
+    padding: .5rem 0;
+    font-weight: 500;
+}
+.productName{
+    font-size: 2.3rem;
+    font-family:"Fraunces", sans-serif;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+.productDescription{
+    font-size: 1.11rem;
+    font-family:"Montserrat", sans-serif;
+    color: #70768f;;
+    padding: .3rem 0;
+}
+.productPrice{
+    padding: 1rem 0;
+}
+.sellAmount{
+    color: #35705A;
+}
+.originalAmount{
+    text-decoration: line-through;
+}
+.addToCartButton{
+    border: none;
+    border-radius: 10px;
+    background-color:#35705A;
+    font-size: 16px;
+    padding: 1rem 4.5rem;
+    cursor: pointer;
+}
+.addToCartButton:hover{    
+    background-color:#35705ae0;
+    transition: .5s;
+}
+.addToCartText{
+    margin: 0px 8px;
+    color:white;
+}
